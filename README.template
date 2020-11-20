@@ -1,7 +1,7 @@
 {{- $types := .Types -}}
 {{- $operators := .Operators -}}
 # sqlparser - meant for querying csv files
-[![Build Status](https://img.shields.io/travis/marianogappa/sqlparser.svg)](https://travis-ci.org/marianogappa/sqlparser) [![Coverage Status](https://coveralls.io/repos/github/marianogappa/sqlparser/badge.svg?branch=master)](https://coveralls.io/github/MarianoGappa/sqlparser?branch=master) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/marianogappa/sqlparser/master/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/marianogappa/sqlparser?style=flat-square)](https://goreportcard.com/report/github.com/marianogappa/sqlparser) [![GoDoc](https://godoc.org/github.com/marianogappa/sqlparser?status.svg)](https://godoc.org/github.com/marianogappa/sqlparser)
+[![Build Status](https://img.shields.io/travis/fibphp/sqlparser.svg)](https://travis-ci.org/fibphp/sqlparser) [![Coverage Status](https://coveralls.io/repos/github/fibphp/sqlparser/badge.svg?branch=master)](https://coveralls.io/github/fibphp/sqlparser?branch=master) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/fibphp/sqlparser/master/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/fibphp/sqlparser?style=flat-square)](https://goreportcard.com/report/github.com/fibphp/sqlparser) [![GoDoc](https://godoc.org/github.com/fibphp/sqlparser?status.svg)](https://godoc.org/github.com/fibphp/sqlparser)
 ### Usage
 
 ```
@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/marianogappa/sqlparser"
+	"github.com/fibphp/sqlparser"
 )
 
 func main() {
